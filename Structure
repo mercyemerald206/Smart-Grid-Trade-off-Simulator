@@ -1,13 +1,11 @@
-ai-circuit-diagnosis/
+grid-simulator/
 ├── data/
-│   └── raw/fault_data.csv
-├── pipelines/
-│   ├── preprocess.py
-│   └── train.py
-├── model/
-│   └── model.pkl
-├── backend/
-│   ├── main.py
-│   └── inference.py
+│   ├── load_profiles.csv
+│   └── generation_costs.csv
+├── simulator/
+│   ├── engine.py
+│   └── optimizer.py
+├── api/
+│   └── main.py
 ├── requirements.txt
 └── README.md
